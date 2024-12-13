@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boite1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 300px;
+  gap: 20px;
+  margin-top: 20px;
+}
+.boiteintp {
+  display: flex;
+  gap: 20px;
+}
+.boiteint {
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+}
+.boiteint:hover {
+  border-radius: 100px;
+  background-color: #31e981;
+  transform: rotate(360deg);
+  transition: 1s;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: wait;
+}
+h1:hover {
+  color: #31e981;
+  background-image: url(what\ are\ you\ doing\ green.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
